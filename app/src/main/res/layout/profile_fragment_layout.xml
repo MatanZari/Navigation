@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/user_cover_picture"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary">
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Matan Zari"
+            android:textColor="@color/colorPrimaryText" />
+
+    </LinearLayout>
+
+    <com.lyuzik.remoteimageview.RImageView
+        android:id="@+id/user_profile_picture"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/profilepic"
+
+        />
+
+    <com.zari.matan.navigationdrawerexample.tabs.SlidingTabLayout
+        android:id="@+id/filter_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="106dp">
+
+    </com.zari.matan.navigationdrawerexample.tabs.SlidingTabLayout>
+
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="156dp"
+        />
+
+</FrameLayout>

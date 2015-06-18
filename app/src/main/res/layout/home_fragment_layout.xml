@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollable_view_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zari.matan.navigationdrawerexample.helper.BackgroundContainer
+        android:id="@+id/listBackgroundContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/home_feed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="4dp"
+            >
+
+        </ListView>
+    </com.zari.matan.navigationdrawerexample.helper.BackgroundContainer>
+
+    <RelativeLayout
+        android:id="@+id/zoom_image_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:visibility="gone">
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/webViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:visibility="gone">
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/feedPreLoader"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+</RelativeLayout>

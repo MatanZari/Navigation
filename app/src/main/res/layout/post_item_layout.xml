@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+    <LinearLayout
+        android:id="@+id/postItemHeader"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        >
+        <com.lyuzik.remoteimageview.RImageView
+            android:id="@+id/postItemCover"
+            android:layout_width="35dp"
+            android:layout_margin="6dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="35dp" />
+        <TextView
+            android:id="@+id/postItemName"
+            android:layout_width="wrap_content"
+            android:layout_margin="4dp"
+            android:gravity="start|center"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/postItemTime"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_margin="4dp"
+            android:gravity="end|center"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorSecondaryText"
+            />
+
+
+
+    </LinearLayout>
+
+    <com.lyuzik.remoteimageview.RImageView
+        android:id="@+id/postItemImage"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        >
+        <TextView
+            android:id="@+id/postItemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@color/colorPrimaryText"
+            />
+
+        <TextView
+            android:id="@+id/postItemDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@color/colorSecondaryText"
+            />
+
+        <TextView
+            android:id="@+id/postItemLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

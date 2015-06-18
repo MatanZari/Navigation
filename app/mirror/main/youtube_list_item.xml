@@ -1,0 +1,18 @@
+<!-- [ Mirror metadata ] generatedAt: 1434621129027 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/youtube_list_item">
+        <!-- TextView Examples:
+        <txt_youtube_title text="@string/string_resource" />
+        <txt_youtube_title text="Text literal" textSize="14sp" /> -->
+        <txt_youtube_title />
+        <!-- ImageView Examples:
+        <youtube_thumbnail src="@drawable/image_resource" />
+        <youtube_thumbnail src="relative_path/image.jpg" /> -->
+        <youtube_thumbnail />
+    </_content>
+</screen>

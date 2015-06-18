@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zari.matan.navigationdrawerexample.com.zari.matan.fragment.GreenFragment"
+    android:background="@android:color/holo_green_dark"
+    >
+
+
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:text="GREEN"
+        android:layout_gravity="center_horizontal|center_vertical"
+        />
+</FrameLayout>

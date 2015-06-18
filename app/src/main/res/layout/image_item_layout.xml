@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#ffffff"
+        >
+
+
+       <com.lyuzik.remoteimageview.RImageView
+           android:id="@+id/imageItemCover"
+           android:layout_width="35dp"
+           android:layout_margin="6dp"
+           android:layout_gravity="center_vertical"
+           android:layout_height="35dp" />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_margin="4dp"
+            android:gravity="start|center"
+            android:textStyle="bold"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_margin="4dp"
+            android:gravity="end|center"
+            android:textColor="@color/colorSecondaryText"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/itemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+    <com.lyuzik.remoteimageview.RImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        />
+
+    </FrameLayout>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+
+        />
+
+</LinearLayout>

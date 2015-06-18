@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zari.matan.navigationdrawerexample.LoginActivity"
+    android:background="@android:color/darker_gray"
+    >
+
+
+    <WebView
+        android:id="@+id/loginWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+    </WebView>
+
+    <LinearLayout
+        android:id="@+id/loginButtons"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="?android:attr/buttonBarStyle"
+        android:gravity="bottom"
+        >
+
+        <Button
+            android:id="@+id/facebookBtn"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_margin="4dp"
+            android:text="@string/facebookBtn"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/twitterBtn"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@android:color/holo_blue_light"
+            android:layout_margin="4dp"
+            android:text="@string/twitterBtn"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/gplusBtn"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@android:color/holo_red_dark"
+            android:layout_margin="4dp"
+            android:text="@string/gPlusBtn"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+<LinearLayout
+    android:id="@+id/postHeader"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:orientation="horizontal"
+    >
+    <com.lyuzik.remoteimageview.RImageView
+        android:id="@+id/postItemCover"
+        android:layout_width="35dp"
+        android:layout_margin="6dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="35dp" />
+    <TextView
+        android:id="@+id/postName"
+        android:layout_width="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="start|center"
+        android:textStyle="bold"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/postTime"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_margin="4dp"
+        android:gravity="end|center"
+        android:layout_height="match_parent"
+        android:textColor="@color/colorSecondaryText"
+        />
+
+
+</LinearLayout>
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d3d3d3"
+        android:layout_below="@+id/postHeader"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:paddingBottom="8dp"
+        android:id="@+id/postContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@id/postHeader"
+        android:layout_alignParentBottom="true"
+        >
+        <com.lyuzik.remoteimageview.RImageView
+            android:id="@+id/postImage"
+            android:layout_margin="4dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:scaleType="centerCrop"
+
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="4"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/postTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryText"
+                />
+
+            <TextView
+                android:id="@+id/postDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:maxLength="200"
+                android:ellipsize="end"
+                android:singleLine="false"
+                android:textColor="@color/colorSecondaryText"
+
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+

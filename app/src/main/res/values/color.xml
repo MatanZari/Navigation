@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#9C27B0</color>
+    <color name="colorPrimaryDark">#7B1FA2</color>
+    <color name="colorPrimaryLight">#BA68C8</color>
+    <color name="colorAccent">#283593</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="icons">#8BC34A</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="black">#000000</color>
+    <color name="facebook">#4b659e</color>
+    <color name="rss">#ff9900</color>
+    <color name="youtube">#db222c</color>
+    <color name="instagram">#40517fa4</color>
+    <color name="vimeo">#2CB8E5</color>
+    <color name="twitter">#41CAF8</color>
+    <color name="soundcloud">#FF6600</color>
+    <color name="vine">#00A478</color>
+    <color name="googleplus">#CC514D</color>
+    <color name="linkedin">#007BB6</color>
+    <color name="pinterest">#CB2027</color>
+    <color name="flickr">#ff0084</color>
+    <color name="tumblr">#2C4762</color>
+
+
+
+
+</resources>

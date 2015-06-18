@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Navigation Drawer Example</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="filter_title_viewgizmos">wolflo</string>
+    <string name="short_min">m</string>
+    <string name="short_hour">h</string>
+    <string name="short_day">d</string>
+    <string name="short_week">w</string>
+    <string name="short_year">Y</string>
+    <string name="instagram_src">Instagram</string>
+    <string name="twitter_src">Twitter</string>
+    <string name="flickr_src">Flickr</string>
+    <string name="youtube_src">Youtube</string>
+    <string name="soundcloud_src">Soundcloud</string>
+    <string name="vimeo_src">Vimeo</string>
+    <string name="pinterest_src">Pinterest</string>
+    <string name="rss_src">Site</string>
+    <string name="tumblr_src">Tumblr</string>
+    <string name="bandsintown_src">Bandsintown</string>
+    <string name="spotify_src">Spotify</string>
+    <string name="facebook_src">Facebook</string>
+    <string name="vine_src">Vine</string>
+    <string name="googleplus_src">Googleplus</string>
+    <string name="linkedin_src">Linkedin</string>
+    <string name="none" />
+    <string name="youtube_api_key">AIzaSyAdaiI84wKJP0TZBkCz98EDxsIoNfe0tSc</string>
+    <string name="play_button">play</string>
+    <string name="thumbnail_image">thumbnail</string>
+    <string name="youtube_error">Sorry, restricted video</string>
+    <string name="loading">loading</string>
+    <string name="empty" />
+    <string name="dummy_text">this is dummy text</string>
+    <string name="drawer_closed">Close</string>
+    <string name="drawer_open">Open</string>
+    <string name="prefs_name">preferences</string>
+    <string name="item_search">Discover</string>
+    <string name="item_home">Home</string>
+    <string name="item_profile">Profile</string>
+    <string name="facebookBtn">Facebook</string>
+    <string name="twitterBtn">Twitter</string>
+    <string name="gPlusBtn">Google+</string>
+</resources>

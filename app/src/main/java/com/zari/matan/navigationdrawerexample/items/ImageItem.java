@@ -47,6 +47,8 @@ public class ImageItem implements FeedItem, View.OnClickListener, ListViewItemAn
 
 
 
+
+
         this.context = context;
         this.itemData = itemData;
         this.itemData.socialBgColor = itemData.socialBgColors.get(ItemData.getSourceStringId(itemData.source));

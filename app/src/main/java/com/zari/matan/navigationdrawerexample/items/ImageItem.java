@@ -44,7 +44,8 @@ public class ImageItem implements FeedItem, View.OnClickListener, ListViewItemAn
 
 
     public ImageItem(Context context, ItemData itemData, ExpendImage zoom) {
-        
+
+
         this.context = context;
         this.itemData = itemData;
         this.itemData.socialBgColor = itemData.socialBgColors.get(ItemData.getSourceStringId(itemData.source));

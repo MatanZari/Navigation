@@ -34,6 +34,7 @@ public class ImageItem implements FeedItem, View.OnClickListener, ListViewItemAn
     ItemData itemData;
     Context context;
     ViewHolder holder = null;
+
     MainActivity activity;
     HomeFragment homeFragment;
     BackgroundContainer backgroundContainer;
